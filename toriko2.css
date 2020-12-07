@@ -1,0 +1,85 @@
+html{
+    font-size:100px
+}
+
+.title{
+    width:60vw;
+    display: block;
+    margin:auto;
+}
+
+h1{
+    font-size:0.4rem;
+    margin:2rem auto;
+    text-align: center;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    position:relative;
+}
+
+
+/* トリコplofile */
+.toriko{
+    background-color: cornflowerblue;
+    display:flex;
+    position: absolute;
+}
+
+.comment1{
+    font-size:0.3rem;
+    padding:0 0.3rem 0;
+}
+
+.comment1 p:nth-of-type(4){
+    padding:0.3rem;
+}
+
+/* コマツplofile */
+.komatu{
+    background-color: darkkhaki;
+    display:flex;
+    flex-direction: row-reverse;
+    position: absolute;
+}
+
+.komatu img{
+    /* height:0.7rem;
+    width:auto; */
+    margin:0 0.2rem 0 auto;
+}
+
+.comment2{
+    font-size:0.3rem;
+    padding:0.6rem 0.3rem 0;
+}
+
+.comment2 p:nth-of-type(-n+3){
+    padding-left:0.12rem;
+}
+
+.comment2 p:nth-of-type(4){
+    padding:0.3rem;
+}
+
+/* リンplofile */
+.rin{
+    background-color: coral;
+    display:flex;
+    position: absolute;
+}
+
+.comment3{
+    font-size:0.3rem;
+    padding:0.6rem 0.3rem 0;
+}
+
+.comment3 p:nth-of-type(-n+3){
+    padding-left:0.12rem;
+}
+
+.comment3 p:nth-of-type(4){
+    padding:0.3rem;
+}
